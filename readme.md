@@ -1,46 +1,46 @@
 # HASH TABLE
 
 ### What is a Hash Table?
-⋅⋅* A list-like data structure that’s designed to quickly store and retrieve key data records. 
+- A list-like data structure that’s designed to quickly store and retrieve key data records. 
 
 ### Hash Table includes three methods:
-..* Search
-..* Insert
-..* Remove
+- Search
+- Insert
+- Remove
 
 
 ### Uses of Hash Tables:
-..* Hash tables are great in situations where we need to locate and retrieve a record in a collection of millions or billions of entries, for example:
+- Hash tables are great in situations where we need to locate and retrieve a record in a collection of millions or billions of entries, for example:
 - Accessing records in a database
 - Locating items in a computer’s memory
 - Spell checkers
 
 ### What is Hashing?
-..* Hashing refers to the process of taking a key (i.e., a piece of data), scrambling it with a hash function, and producing an index that’s
+- Hashing refers to the process of taking a key (i.e., a piece of data), scrambling it with a hash function, and producing an index that’s
 used to sort the key into a hash table.
 
 ### What is a Hash Function?
-..* Takes in a key, such as a string or integer, for a data record (often a key-value pair), scrambles it, and outputs an index to be used in a hash table.
+- Takes in a key, such as a string or integer, for a data record (often a key-value pair), scrambles it, and outputs an index to be used in a hash table.
 
 ### A hash function should:
-..* Always return the same output, given the same input
-..* Be simple and efficient
-..* Distribute values evenly throughout the hash table
-..* Avoid collisions (two different inputs =  same output)
+- Always return the same output, given the same input
+- Be simple and efficient
+- Distribute values evenly throughout the hash table
+- Avoid collisions (two different inputs =  same output)
 
 ### Hash Function Rule:
-..* For the same input, it must always generate the same output. Is possible to have two different inputs with the same output. 
+- For the same input, it must always generate the same output. Is possible to have two different inputs with the same output. 
 
 ### How to resolve a collison? 
-..* Open addressing(probing): 
+- Open addressing(probing): 
 - Jumps to somewhere else in the table to store your key, if the index generated for a key is already taken 
 
 ### 3 types of open addressing: 
-..* Linear probing: moves one slot to the right until it finds an open index.
-..* Quadratic probing: finds an open index by moving one step to the right, then four, then nine, then 16, then 25, etc.
-..* Double hashing: uses a secondary hash function to find an open index.
+- Linear probing: moves one slot to the right until it finds an open index.
+- Quadratic probing: finds an open index by moving one step to the right, then four, then nine, then 16, then 25, etc.
+- Double hashing: uses a secondary hash function to find an open index.
 
-..* Closed addressing(chaining): A method with a more elegant approach to a hash table
+- Closed addressing(chaining): A method with a more elegant approach to a hash table
 implementation.
 - Each slot in the hash table is built as a bucket that can hold as many keys as you want.
 - If the hash function generates the same index for two keys, we just add them to the bucket. 
