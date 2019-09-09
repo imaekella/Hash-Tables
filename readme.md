@@ -47,9 +47,8 @@ implementation.
 - These buckets are implemented as a linked list.
 
 
-(https://user-images.githubusercontent.com/50884940/64549007-a4286d00-d2e4-11e9-9a7d-33c8c19cec0e.png)
-(https://user-images.githubusercontent.com/50884940/64549011-a5599a00-d2e4-11e9-8508-14100fea7e69.png)
-
+<img width="769" alt="screen_shot_2019-09-06_at_10 23 55_am" src="https://user-images.githubusercontent.com/50884940/64549007-a4286d00-d2e4-11e9-9a7d-33c8c19cec0e.png">
+<img width="661" alt="screen_shot_2019-09-06_at_10 29 06_am" src="https://user-images.githubusercontent.com/50884940/64549011-a5599a00-d2e4-11e9-8508-14100fea7e69.png">
 
 
 
